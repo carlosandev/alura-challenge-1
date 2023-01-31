@@ -1,0 +1,73 @@
+.container{
+    grid-template-columns: 1fr;
+    justify-items: left;
+}
+
+.user-input{
+    margin-top: 5vh;
+    margin-left: 0vw;
+    width: 100%;
+}
+
+#user-text{
+    font-size: 1.6em;
+    padding: 5px;
+    margin-left: 5vw;
+}
+
+.info{
+    margin-top:7vh;
+    margin-left: 5vw;
+    width: 70%;
+    font-size: 1em;
+}
+
+.buttons-form{
+    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-left: 0;
+    width: 100%;
+}
+
+#button-encrypt{
+    grid-column-start: 2;
+}
+
+#button-encrypt, #button-decrypt, #copy-text{
+    width: 36vw;
+    height:7vh; 
+    font-size: 1.2em;
+}
+
+/* Sección de Respuesta */
+#encrypt-text{
+    width: 90vw;
+    margin-top: 3vh;
+    margin-left: 5%;
+}
+
+#waiting-text{
+    min-height: 12vh;
+    border-radius: 20px;
+    grid-template-columns: 1fr;
+    margin-bottom: 2vh;
+}
+
+#doll{
+    display:none;
+}
+
+#response{
+    min-height: 25vh;
+    border-radius: 20px;    
+}
+
+#response-text{
+    font-size: 1em;
+    padding: 1.5em 1em;
+}
+
+#copy-text{
+    margin-top:5vh;
+    margin-bottom: 2vh;
+}

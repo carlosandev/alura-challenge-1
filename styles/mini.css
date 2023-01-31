@@ -1,0 +1,76 @@
+
+.user-input{
+    margin-top: 0vh;
+}
+
+#user-text{
+    font-size: 1.2em;
+    padding: 3px;
+    margin-top: 1vh;
+    margin-left: 4vw;
+}
+
+.info{
+    margin-top: 10vh;
+    margin-left: 4vw;
+    font-size: 0.9em;
+}
+
+.buttons-form{
+    grid-template-columns: 1fr;
+    justify-content: center;
+    margin-top: 2vh;
+}
+
+#button-encrypt{
+    grid-column-start: 1;
+}
+
+#button-encrypt, #button-decrypt, #copy-text{
+    border-radius: 12px;
+    width: 90vw;
+    height:6vh; 
+    font-size: 1em;
+}
+
+/* Sección de Respuesta */
+#encrypt-text{
+    padding: 20px;
+}
+
+#waiting-text{
+    height: auto;
+    border-radius: 20px;
+    padding: 2em 1.5em;
+    margin-bottom: 1vh;
+}
+
+#waiting-text>h3{
+    font-size:1.2em;
+    margin-bottom: 1vh;
+}
+
+#doll{
+    display:none;
+    width: 100%;
+    height: auto;
+    margin-top: 15vh;
+}
+
+#response{
+    min-height: 20vh;
+    border-radius: 20px;
+    
+}
+
+#response-text{
+    font-size: 15px;
+    padding: 0.7em 0.3em;
+
+}
+
+#copy-text{
+    margin-top:1vh;
+    margin-bottom: 1vh;
+    width: 70vw;
+}
